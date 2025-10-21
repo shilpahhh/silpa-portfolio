@@ -1,0 +1,25 @@
+
+.footer {
+  background-color: rgb(6, 5, 4);
+  padding: 30px 0;
+  text-align: center;
+  color: white;
+}
+
+.icon {
+  color: #89795c;
+  font-size: 28px;
+  margin: 0 15px;
+  transition: transform 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  color: #a58f6a;
+}
+
+.copy {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ccc;
+}

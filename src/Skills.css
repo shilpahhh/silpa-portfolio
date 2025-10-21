@@ -1,0 +1,56 @@
+.skills-container{
+    height: 600px;
+    background-color: black;
+}
+.section-heading-skills{
+    padding-top: 120px;
+     color: #89795c;
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #89795c;
+  border-radius: 6px;
+  height: 80px;
+  padding: 10px 15px;
+   color: rgb(255, 255, 255);
+  transition: 0.3s;
+  cursor: default;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.skill-item:hover {
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+.html { color: #e44d26 !important; }
+.css { color: #1572b6 !important; }
+.js { color: #f7df1e !important; }
+.react { color: #61dafb !important; }
+.java { color: #f89820 !important; }
+.sql { color: #cfcfcf !important; }
+.postgresql { color: #336791 !important; }
+
+.skill-item span {
+  color: white;
+  font-weight: 500;
+}
