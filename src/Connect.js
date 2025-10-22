@@ -13,7 +13,7 @@ function Connect() {
 
   return (
     <div className="connect-container" data-aos="fade-up">
-      <h1 className="section-heading">Connect With Me</h1>
+      <h1 className="section-heading-connect">Connect With Me</h1>
       <form className="connect-form" onSubmit={handleSubmit}>
         <input type="text" name="name" placeholder="Your Name" required onChange={handleChange} />
         <input type="email" name="email" placeholder="Your Email" required onChange={handleChange} />
