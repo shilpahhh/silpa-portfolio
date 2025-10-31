@@ -1,7 +1,7 @@
 import React from 'react';
 import './Skills.css';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaJava, FaDatabase } from 'react-icons/fa';
-import { SiPostgresql } from 'react-icons/si';
+import { SiPostgresql, SiTailwindcss } from 'react-icons/si';
 
 function Skills() {
   return (
@@ -15,6 +15,7 @@ function Skills() {
             <div className="skill-item"><FaCss3Alt className="icon css" />CSS3</div>
             <div className="skill-item"><FaJs className="icon js" />JavaScript</div>
             <div className="skill-item"><FaReact className="icon react" />React.js</div>
+            <div className="skill-item"><SiTailwindcss className="icon tailwind" />Tailwind CSS</div>
           </div>
         </div>
 
