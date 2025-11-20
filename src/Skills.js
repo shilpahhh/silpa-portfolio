@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.css';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaJava, FaDatabase } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaJava, FaDatabase, FaWordpress } from 'react-icons/fa';
 import { SiPostgresql, SiTailwindcss } from 'react-icons/si';
 
 function Skills() {
@@ -25,6 +25,7 @@ function Skills() {
             <div className="skill-item"><FaJava className="icon java" />Java</div>
             <div className="skill-item"><FaDatabase className="icon sql" />SQL</div>
             <div className="skill-item"><SiPostgresql className="icon postgresql" />PostgreSQL</div>
+              <div className="skill-item"><FaWordpress className="icon wordpress" />WordPress</div>
           </div>
         </div>
       </div>
